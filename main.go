@@ -9,7 +9,6 @@ import (
 
 func main() {
 	buf := bufio.NewReader(os.Stdin)
-	fmt.Println("Input Your Words: ")
 	wrd, _ := buf.ReadString('\n')
 	wrd = strings.TrimSpace(wrd)
 	str_wrd := strings.Split(wrd, "")
