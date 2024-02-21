@@ -49,7 +49,14 @@ func main() {
 				new_data.Alasan = value.Alasan
 				new_data.Pekerjaan = value.Pekerjaan
 				bool_var = false
-				fmt.Printf("%+v\n", new_data)
+
+				fmt.Printf("ID: %d\n", new_data.ID)
+				fmt.Printf("Nama: %s\n", new_data.Nama)
+				fmt.Printf("Alamat: %s\n", new_data.Alamat)
+				fmt.Printf("Pekerjaan: %s\n", new_data.Pekerjaan)
+				fmt.Printf("Alasan: %s\n", new_data.Alasan)
+
+				new_data = NewData{}
 			}
 		}
 	}
