@@ -1,3 +1,3 @@
 # tiptap_golang
 
-![*]postman.png
+![alt text](postman.png)
